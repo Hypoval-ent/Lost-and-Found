@@ -12,7 +12,6 @@ The **Lost and Found Portal** is a web-based application designed for the Office
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Future Enhancements](#future-enhancements)
-- [Contact](#contact)
 
 ---
 
@@ -24,13 +23,10 @@ The **Lost and Found Portal** is a web-based application designed for the Office
 2. **Report Submission**
    - Users can fill out a form to report lost or found items with essential details like name, roll number, contact info, item type, date, location, and image uploads.
 
-3. **Automated Notification System**
-   - Automatically categorizes and organizes reports to enhance item recovery efficiency.
-
-4. **Centralized Data Management**
+3. **Centralized Data Management**
    - Enables security staff to manage all lost-and-found data in a centralized system, reducing manual workload.
 
-5. **Enhanced Communication**
+4. **Enhanced Communication**
    - Provides contact details for the Office of Security, allowing users to ask questions or seek assistance.
 
 ## Project Goal
@@ -40,8 +36,8 @@ This project was initiated to support the Office of Security at IIT Jodhpur by r
 ## Technology Stack
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend** (if applicable): Flask, Django, or Node.js for server-side processing
-- **Database**: MySQL or PostgreSQL (if backend integration is implemented)
+- **Backend** (if applicable): MERN stack server-side processing
+- **Database**: MySQL (if backend integration is implemented)
 
 ## Setup and Installation
 
@@ -61,7 +57,7 @@ This project was initiated to support the Office of Security at IIT Jodhpur by r
 
 1. Open the portal and select "Lost" or "Found" to report or search for items.
 2. Fill in the relevant details in the form, including contact information, item details, and deposit details for found items.
-3. Submit the form to register the report with the Office of Security.
+3. Submit the form to register to report with the Office of Security.
 
 ## Future Enhancements
 
@@ -70,9 +66,6 @@ This project was initiated to support the Office of Security at IIT Jodhpur by r
 - **Mobile Responsiveness**: Optimize the interface for mobile devices.
 - **Automated Matching System**: Match lost and found items automatically based on details.
 
-## Contact
-
-For assistance, please contact the Office of Security at IIT Jodhpur.
 
 ---
 
