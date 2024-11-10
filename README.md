@@ -52,7 +52,9 @@ This project was initiated to support the Office of Security at IIT Jodhpur by r
 3. Open the `index.html` file from the main page in a web browser to view the frontend.
 
    > **Note**: This project is designed as a frontend interface. Backend setup and database connection would require additional setup.
-4.Changen the link of the lost and found form according to you local ip address.
+
+
+4.Change the link of the lost and found form according to you local ip address.
 
 ## Usage
 
