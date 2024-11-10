@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a Lost Item</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="iitj-logo.png" alt="IIT Jodhpur Logo" class="logo">
+        <div class="header-text">
+            <h1>Office of Security</h1>
+            <h2>Indian Institute of Technology Jodhpur</h2>
+        </div>
+    </header>
+    <main class="container">
+        <section class="form-section">
+            <div class="title-bar">
+                <h3>Lost</h3>
+            </div>
+            <h2>REPORT A LOST ITEM</h2>
+            <form>
+                <label>Name:</label>
+                <input type="text" placeholder="Your name" required>
+
+                <label>Roll Number:</label>
+                <input type="text" placeholder="Your roll number" required>
+
+                <h4>Contact Information:</h4>
+                <label>Email:</label>
+                <input type="email" placeholder="Your email" required>
+
+                <label>Phone No:</label>
+                <input type="tel" placeholder="Your phone number" required>
+
+                <h4>Lost Item Details:</h4>
+                <label>Item Type:</label>
+                <select required>
+                    <option value="" disabled selected>-Select-</option>
+                    <option value="wallet">Wallet</option>
+                    <option value="phone">Phone</option>
+                    <option value="keys">Keys</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label>Date Lost:</label>
+                <input type="date" required>
+
+                <label>Location:</label>
+                <input type="text" placeholder="Location where lost" required>
+
+                <label>Upload an image:</label>
+                <input type="file">
+
+                <label>Description:</label>
+                <textarea placeholder="Describe the lost item" required></textarea>
+
+                <button type="submit">SUBMIT</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy;2024 Indian Institute Of Technology Jodhpur</p>
+    </footer>
+</body>
+</html>
